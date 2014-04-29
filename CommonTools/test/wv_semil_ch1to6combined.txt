@@ -1,0 +1,24 @@
+Combination of wv_semil_ch6boosted.txt
+imax 1 number of bins
+jmax 3 number of processes minus 1
+kmax 5 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes WV_semileptonic_bkg1_ch6           ch1                                ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS WV_ch6boosted:$PROCESS
+shapes WV_semileptonic_bkg2_ch6           ch1                                ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS WV_ch6boosted:$PROCESS
+shapes WV_semileptonic_bkg3_ch6           ch1                                ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS WV_ch6boosted:$PROCESS
+shapes WWgammaZ_WV_atgc_semileptonic_ch6  ch1                                ./ch6_boosted_ws.root WV_ch6boosted:ATGCPdf_$PROCESS WV_ch6boosted:ATGCPdf_$PROCESS
+shapes data_obs                           ch1                                ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1        
+observation  1e-05      
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                                                       ch1                                ch1                                ch1                                ch1                              
+process                                                                   WWgammaZ_WV_atgc_semileptonic_ch6  WV_semileptonic_bkg1_ch6           WV_semileptonic_bkg3_ch6           WV_semileptonic_bkg2_ch6         
+process                                                                   0                                  1                                  2                                  3                                
+rate                                                                      0.1531                             2.4945                             0.1632                             1e-05                            
+----------------------------------------------------------------------------------------------------------------------------------
+lumi_8TeV               lnN                                               1.044                              -                                  -                                  -                                
+topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV   lnN              -                                  -                                  -                                  1.000/1.000                      
+wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV   lnN                              -                                  -                                  0.757/1.243                        -                                
+zll_CMS_hzz2l2v_stat_ll_zll_8TeV   lnN                                    -                                  0.495/1.505                        -                                  -                                
+zz2l2nu_CMS_hzz2l2v_sherpa   lnN                                          1.569/0.431                        -                                  -                                  -                                

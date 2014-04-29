@@ -1,0 +1,139 @@
+	 @@@@@@@@@@@ can't find biining! (RooATGCProcessScaling file)
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ print out ...
+
+RooWorkspace(w) w contents
+
+variables
+---------
+(CMS_channel,CMS_eff_b,CMS_hzz2l2v_les,CMS_hzz2l2v_pu,CMS_hzz2l2v_umet,CMS_res_j,CMS_scale_j,W_pt_ch1,W_pt_ch2,W_pt_ch3,W_pt_ch4,W_pt_ch5,W_pt_ch6,dg1,dkg,kappaH_1,kappaH_2,kappaH_3,kappaH_4,kappaH_5,kappaH_6,kappaH_7,kappaH_8,kappaH_9,kappaL_1,kappaL_2,kappaL_3,kappaL_4,kappaL_5,kappaL_6,kappaL_7,kappaL_8,kappaL_9,lZ,zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto,zz2l2nu_CMS_hzz2l2v_sherpa,zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV)
+
+functions
+--------
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral1[ kappaLow=kappaL_1 kappaHigh=kappaH_1 theta=CMS_eff_b ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral2) evaluation error, 
+ origin       : AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ]
+ message      : function value is NAN
+ server values: kappaLow=kappaL_2=0, kappaHigh=kappaH_2=2.04652, theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto=0
+nan
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral3[ kappaLow=kappaL_3 kappaHigh=kappaH_3 theta=CMS_hzz2l2v_les ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral4[ kappaLow=kappaL_4 kappaHigh=kappaH_4 theta=CMS_hzz2l2v_pu ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral5[ kappaLow=kappaL_5 kappaHigh=kappaH_5 theta=zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral6[ kappaLow=kappaL_6 kappaHigh=kappaH_6 theta=CMS_hzz2l2v_umet ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral7[ kappaLow=kappaL_7 kappaHigh=kappaH_7 theta=CMS_res_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral8[ kappaLow=kappaL_8 kappaHigh=kappaH_8 theta=CMS_scale_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral9[ kappaLow=kappaL_9 kappaHigh=kappaH_9 theta=zz2l2nu_CMS_hzz2l2v_sherpa ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral1[ kappaLow=kappaL_1 kappaHigh=kappaH_1 theta=CMS_eff_b ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral2) evaluation error, 
+ origin       : AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ]
+ message      : function value is NAN
+ server values: kappaLow=kappaL_2=0, kappaHigh=kappaH_2=2.04652, theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto=0
+nan
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral3[ kappaLow=kappaL_3 kappaHigh=kappaH_3 theta=CMS_hzz2l2v_les ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral4[ kappaLow=kappaL_4 kappaHigh=kappaH_4 theta=CMS_hzz2l2v_pu ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral5[ kappaLow=kappaL_5 kappaHigh=kappaH_5 theta=zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral6[ kappaLow=kappaL_6 kappaHigh=kappaH_6 theta=CMS_hzz2l2v_umet ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral7[ kappaLow=kappaL_7 kappaHigh=kappaH_7 theta=CMS_res_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral8[ kappaLow=kappaL_8 kappaHigh=kappaH_8 theta=CMS_scale_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral9[ kappaLow=kappaL_9 kappaHigh=kappaH_9 theta=zz2l2nu_CMS_hzz2l2v_sherpa ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral1[ kappaLow=kappaL_1 kappaHigh=kappaH_1 theta=CMS_eff_b ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral2) evaluation error, 
+ origin       : AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ]
+ message      : function value is NAN
+ server values: kappaLow=kappaL_2=0, kappaHigh=kappaH_2=2.04652, theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto=0
+nan
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral3[ kappaLow=kappaL_3 kappaHigh=kappaH_3 theta=CMS_hzz2l2v_les ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral4[ kappaLow=kappaL_4 kappaHigh=kappaH_4 theta=CMS_hzz2l2v_pu ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral5[ kappaLow=kappaL_5 kappaHigh=kappaH_5 theta=zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral6[ kappaLow=kappaL_6 kappaHigh=kappaH_6 theta=CMS_hzz2l2v_umet ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral7[ kappaLow=kappaL_7 kappaHigh=kappaH_7 theta=CMS_res_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral8[ kappaLow=kappaL_8 kappaHigh=kappaH_8 theta=CMS_scale_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral9[ kappaLow=kappaL_9 kappaHigh=kappaH_9 theta=zz2l2nu_CMS_hzz2l2v_sherpa ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral1[ kappaLow=kappaL_1 kappaHigh=kappaH_1 theta=CMS_eff_b ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral2) evaluation error, 
+ origin       : AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ]
+ message      : function value is NAN
+ server values: kappaLow=kappaL_2=0, kappaHigh=kappaH_2=2.04652, theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto=0
+nan
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral3[ kappaLow=kappaL_3 kappaHigh=kappaH_3 theta=CMS_hzz2l2v_les ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral4[ kappaLow=kappaL_4 kappaHigh=kappaH_4 theta=CMS_hzz2l2v_pu ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral5[ kappaLow=kappaL_5 kappaHigh=kappaH_5 theta=zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral6[ kappaLow=kappaL_6 kappaHigh=kappaH_6 theta=CMS_hzz2l2v_umet ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral7[ kappaLow=kappaL_7 kappaHigh=kappaH_7 theta=CMS_res_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral8[ kappaLow=kappaL_8 kappaHigh=kappaH_8 theta=CMS_scale_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral9[ kappaLow=kappaL_9 kappaHigh=kappaH_9 theta=zz2l2nu_CMS_hzz2l2v_sherpa ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral1[ kappaLow=kappaL_1 kappaHigh=kappaH_1 theta=CMS_eff_b ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral2) evaluation error, 
+ origin       : AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ]
+ message      : function value is NAN
+ server values: kappaLow=kappaL_2=0, kappaHigh=kappaH_2=2.04652, theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto=0
+nan
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral3[ kappaLow=kappaL_3 kappaHigh=kappaH_3 theta=CMS_hzz2l2v_les ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral4[ kappaLow=kappaL_4 kappaHigh=kappaH_4 theta=CMS_hzz2l2v_pu ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral5[ kappaLow=kappaL_5 kappaHigh=kappaH_5 theta=zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral6[ kappaLow=kappaL_6 kappaHigh=kappaH_6 theta=CMS_hzz2l2v_umet ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral7[ kappaLow=kappaL_7 kappaHigh=kappaH_7 theta=CMS_res_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral8[ kappaLow=kappaL_8 kappaHigh=kappaH_8 theta=CMS_scale_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral9[ kappaLow=kappaL_9 kappaHigh=kappaH_9 theta=zz2l2nu_CMS_hzz2l2v_sherpa ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral1[ kappaLow=kappaL_1 kappaHigh=kappaH_1 theta=CMS_eff_b ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral2) evaluation error, 
+ origin       : AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral2[ kappaLow=kappaL_2 kappaHigh=kappaH_2 theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto ]
+ message      : function value is NAN
+ server values: kappaLow=kappaL_2=0, kappaHigh=kappaH_2=2.04652, theta=zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto=0
+nan
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral3[ kappaLow=kappaL_3 kappaHigh=kappaH_3 theta=CMS_hzz2l2v_les ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral4[ kappaLow=kappaL_4 kappaHigh=kappaH_4 theta=CMS_hzz2l2v_pu ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral5[ kappaLow=kappaL_5 kappaHigh=kappaH_5 theta=zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral6[ kappaLow=kappaL_6 kappaHigh=kappaH_6 theta=CMS_hzz2l2v_umet ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral7[ kappaLow=kappaL_7 kappaHigh=kappaH_7 theta=CMS_res_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral8[ kappaLow=kappaL_8 kappaHigh=kappaH_8 theta=CMS_scale_j ] = 1
+AsymPow::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral9[ kappaLow=kappaL_9 kappaHigh=kappaH_9 theta=zz2l2nu_CMS_hzz2l2v_sherpa ] = 1
+RooATGCProcessScaling_wz::Scaling_WWgammaZ_WV_atgc_semileptonic_ch1[ lZ=lZ dkg=dkg dg1=dg1 ] = ret/SM_integral= 5.64928/5.65144 = 0.999617
+0.999617
+RooHistFunc::Scaling_base_pdf_WWgammaZ_WV_atgc_semileptonic_ch1[ depList=(W_pt_ch1) ] = 5.65144
+RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch1_ch1__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral9 ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeSig_WWgammaZ_WV_atgc_semileptonic_ch1_ch1__norm) evaluation error, 
+ origin       : RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch1_ch1__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral9 ]
+ message      : function value is NAN
+ server values: !compRSet=(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral1 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral2 = nan,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral3 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral4 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral5 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral6 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral7 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral8 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1_integral9 = 1), !compCSet=()
+nan
+RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch2_ch2__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral9 ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeSig_WWgammaZ_WV_atgc_semileptonic_ch2_ch2__norm) evaluation error, 
+ origin       : RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch2_ch2__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral9 ]
+ message      : function value is NAN
+ server values: !compRSet=(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral1 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral2 = nan,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral3 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral4 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral5 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral6 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral7 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral8 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2_integral9 = 1), !compCSet=()
+nan
+RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch3_ch3__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral9 ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeSig_WWgammaZ_WV_atgc_semileptonic_ch3_ch3__norm) evaluation error, 
+ origin       : RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch3_ch3__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral9 ]
+ message      : function value is NAN
+ server values: !compRSet=(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral1 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral2 = nan,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral3 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral4 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral5 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral6 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral7 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral8 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3_integral9 = 1), !compCSet=()
+nan
+RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch4_ch4__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral9 ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeSig_WWgammaZ_WV_atgc_semileptonic_ch4_ch4__norm) evaluation error, 
+ origin       : RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch4_ch4__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral9 ]
+ message      : function value is NAN
+ server values: !compRSet=(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral1 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral2 = nan,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral3 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral4 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral5 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral6 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral7 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral8 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4_integral9 = 1), !compCSet=()
+nan
+RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch5_ch5__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral9 ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeSig_WWgammaZ_WV_atgc_semileptonic_ch5_ch5__norm) evaluation error, 
+ origin       : RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch5_ch5__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral9 ]
+ message      : function value is NAN
+ server values: !compRSet=(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral1 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral2 = nan,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral3 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral4 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral5 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral6 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral7 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral8 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5_integral9 = 1), !compCSet=()
+nan
+RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch6_ch6__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral9 ] = [#0] ERROR:Eval -- RooAbsReal::logEvalError(shapeSig_WWgammaZ_WV_atgc_semileptonic_ch6_ch6__norm) evaluation error, 
+ origin       : RooProduct::shapeSig_WWgammaZ_WV_atgc_semileptonic_ch6_ch6__norm[ ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral1 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral2 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral3 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral4 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral5 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral6 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral7 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral8 * ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral9 ]
+ message      : function value is NAN
+ server values: !compRSet=(ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral1 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral2 = nan,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral3 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral4 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral5 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral6 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral7 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral8 = 1,ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6_integral9 = 1), !compCSet=()
+nan
+
+datasets
+--------
+RooDataSet::data_obs(W_pt_ch4,W_pt_ch5,W_pt_ch6,W_pt_ch1,W_pt_ch2,W_pt_ch3,CMS_channel)
+RooDataHist::DHIST_SM_wv_semil_ch1_shape_for_scale(W_pt_ch1)
+
+named sets
+----------
+POI:(dkg,dg1,lZ)
+observables:(W_pt_ch4,W_pt_ch5,W_pt_ch6,W_pt_ch1,W_pt_ch2,W_pt_ch3,CMS_channel)
+
+generic objects
+---------------
+TH1D::SM_wv_semil_ch1_shape_for_scale
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ printed out ...
+{'WWgammaZ_WV_atgc_semileptonic_ch1': 'WWgammaZ_WV_atgc_semileptonic_ch1'}

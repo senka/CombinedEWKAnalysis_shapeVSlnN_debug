@@ -1,0 +1,9 @@
+void plotSyst(){
+
+  TFile * file_in=new TFile("../data/WV_semileptonic/ch1_boosted.root","read");
+  file_in->cd();
+  
+  TCanvas * c1=new TCanvas("c1","c1",600,600);
+  
+
+}

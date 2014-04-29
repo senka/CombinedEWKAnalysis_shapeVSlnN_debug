@@ -1,0 +1,1418 @@
+adding RooFit ... done
+end of pyroot_logon
+
+	lType= ch1
+Nbkg=  3
+backgrounds=  [<ROOT.TH1D object ("plot_rebin") at 0x1dcae3b0>, <ROOT.TH1D object ("plot_rebin") at 0x1ddb1120>, <ROOT.TH1D object ("plot_rebin") at 0x1ddb1500>]
+ bkg shape syst:  ['zll_CMS_hzz2l2v_stat_ll_zll_8TeV']
+ getting bkgUp  zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp
+ yield:  28.7849161478
+ bkg shape syst:  ['topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV']
+ getting bkgUp  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp
+ yield:  12.1863725742
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_eff_bUp
+ yield:  4.68884849548
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_lesUp
+ yield:  4.69452381134
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_puUp
+ yield:  4.6820473671
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp
+ yield:  4.91917871434
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_umetUp
+ yield:  4.77911376953
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_res_jUp
+ yield:  4.72005605698
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_scale_jUp
+ yield:  6.05948925018
+doSignalShape_unc= True
+ signal shape syst:  zz2l2nu_CMS_eff_b
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_les
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_pu
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_umet
+ signal shape syst:  zz2l2nu_CMS_res_j
+ signal shape syst:  zz2l2nu_CMS_scale_j
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_sherpa
+bkg integral:  [22.24430274963379, 8.989530825901513, 4.688848495483398]
+signal shape unc:  {0: 5.651444435119629, 1: 1e-05, 2: 5.219192981719971, 3: 5.623811721801758, 4: 5.442362484181337, 5: 5.269986152648926, 6: 5.413364410400391, 7: 4.607347011566162, 8: 3.46817946434021}   5.65144443512   {0: 5.675354480743408, 1: 11.565799713134766, 2: 5.748459339141846, 3: 5.672923564910889, 4: 5.860526386057921, 5: 5.780543804168701, 6: 6.004891872406006, 7: 8.334199905395508, 8: 7.834714412689209}
+bining: 
+0.0
+1.0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(data_obs): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch1): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch1): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch1_zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch1_zll_CMS_hzz2l2v_stat_ll_zll_8TeVDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch1_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch1_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_eff_bUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_eff_bDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_res_jUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_res_jDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_scale_jUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch1_wz3lnu_CMS_scale_jDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_eff_bUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_eff_bDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_res_jUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_res_jDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_scale_jUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_scale_jDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaUp): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch1_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaDown): fit range of variable W_pt_ch1 expanded to nearest bin boundaries: [0,1] --> [0,1]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCFunction
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCFunction
+
+setting up for dkglZ plane!
+0
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCSemi
+
+[#1] INFO:Eval -- RooRealVar::setRange(W_pt_ch1) new range named 'integRange' created with bounds [0,1]
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_eff_bUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_eff_bDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_lesUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_lesDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_puUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_puDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_umetUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_umetDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_res_jUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_res_jDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_scale_jUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_scale_jDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_sherpaUp_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch1_shape_zz2l2nu_CMS_hzz2l2v_sherpaDown_Int[W_pt_ch1|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch1)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCSemi
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch1boosted) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch1boosted) importing dataset WV_semileptonic_bkg1_ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch1boosted) importing dataset WV_semileptonic_bkg2_ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch1boosted) importing dataset WV_semileptonic_bkg3_ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch1boosted) importing RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch1boosted) importing RooHistFunc::WV_semileptonic_SM_ch1_shape
+
+RooWorkspace(WV_ch1boosted) WV_ch1boosted contents
+
+variables
+---------
+(W_pt_ch1,dg1,dkg,lZ,zz2l2nu_CMS_eff_b,zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto,zz2l2nu_CMS_hzz2l2v_les,zz2l2nu_CMS_hzz2l2v_pu,zz2l2nu_CMS_hzz2l2v_sherpa,zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV,zz2l2nu_CMS_hzz2l2v_umet,zz2l2nu_CMS_res_j,zz2l2nu_CMS_scale_j)
+
+p.d.f.s
+-------
+RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch1[ observable=W_pt_ch1 lZ=lZ dkg=dkg dg1=dg1 SM_shape=WV_semileptonic_SM_ch1_shape ] = 5.64928
+
+functions
+--------
+RooHistFunc::WV_semileptonic_SM_ch1_shape[ depList=(W_pt_ch1) ] = 5.65144
+
+datasets
+--------
+RooDataHist::data_obs(W_pt_ch1)
+RooDataHist::WV_semileptonic_bkg1_ch1(W_pt_ch1)
+RooDataHist::WV_semileptonic_bkg2_ch1(W_pt_ch1)
+RooDataHist::WV_semileptonic_bkg3_ch1(W_pt_ch1)
+
+	 ----> isItCorrelated: testing  zll_CMS_hzz2l2v_stat_ll_zll_8TeV
+-> false
+	 ----> isItCorrelated: testing  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_eff_b
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_les
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_pu
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_umet
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_res_j
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_scale_j
+-> true
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_eff_b
+-> true
+@@@@@@@@@@@@@@ testing  1.00423078487   1.0
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_les
+-> true
+@@@@@@@@@@@@@@ testing  1.01716639085   0.923514871576
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_pu
+-> true
+@@@@@@@@@@@@@@ testing  1.00380064425   0.995110504291
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_umet
+-> true
+@@@@@@@@@@@@@@ testing  1.02284360583   0.932502515622
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_res_j
+-> true
+@@@@@@@@@@@@@@ testing  1.06254107978   0.957872712463
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_scale_j
+-> true
+@@@@@@@@@@@@@@ testing  1.47470261826   0.815251227268
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_sherpa
+-> false
+
+# Simple counting experiment, with one signal and a few background processes 
+imax 1  number of channels
+jmax 3  number of backgrounds
+kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------
+shapes WV_semileptonic_bkg1_ch1  ch1boosted ./ch1_boosted_ws.root WV_ch1boosted:$PROCESS WV_ch1boosted:$PROCESS
+shapes WV_semileptonic_bkg2_ch1  ch1boosted ./ch1_boosted_ws.root WV_ch1boosted:$PROCESS WV_ch1boosted:$PROCESS
+shapes WV_semileptonic_bkg3_ch1  ch1boosted ./ch1_boosted_ws.root WV_ch1boosted:$PROCESS WV_ch1boosted:$PROCESS
+shapes data_obs                ch1boosted ./ch1_boosted_ws.root WV_ch1boosted:$PROCESS    
+shapes WWgammaZ_WV_atgc_semileptonic_ch1 ch1boosted ./ch1_boosted_ws.root WV_ch1boosted:ATGCPdf_$PROCESS
+   
+------------
+bin ch1boosted 
+observation 27.0
+------------
+bin                         ch1boosted					ch1boosted			ch1boosted			ch1boosted       
+process			    WWgammaZ_WV_atgc_semileptonic_ch1    	WV_semileptonic_bkg1_ch1	WV_semileptonic_bkg2_ch1	WV_semileptonic_bkg3_ch1       
+process                     0	  	       				1 				2 				3       
+rate                        5.65144443512	 			22.2443027496 			8.9895308259 			4.68884849548           
+------------
+lumi_8TeV       	    lnN 	    1.026             				-				-				1.026       
+CMS_eff_c           lnN     1.03          				-				-				1.03       
+CMS_hzz2l2v_sys_topwwwjetsdata_8TeV_c       lnN     -               				-				1.2				-
+zll_CMS_hzz2l2v_stat_ll_zll_8TeV lnN  -				0.705964557679/1.29403544232 				-				-
+topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV lnN  -				-				0.644381691301/1.3556183087 				-
+wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV lnN  -				-				-				0.950877018296/1.0491229817 
+QCDscale_VV           lnN     -          				-				-				1.054
+Zlldata_syst           lnN     -          				1.4				-				-
+pdf_VV           lnN     1.058          				-				-				1.042
+CMS_eff_b        lnN   1.0/1.00423078487         				-				-				1.0/1.0 
+zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto        lnN   1.76945913824e-06/2.04652099935         				-				-				-
+CMS_hzz2l2v_les        lnN   0.923514871576/1.01716639085         				-				-				0.933025757157/1.00121038585 
+CMS_hzz2l2v_pu        lnN   0.995110504291/1.00380064425         				-				-				0.998594154432/0.998549509886 
+zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV        lnN   0.963003803127/1.03699619687         				-				-				-
+CMS_hzz2l2v_umet        lnN   0.932502515622/1.02284360583         				-				-				0.927994957505/1.01925105367 
+CMS_res_j        lnN   0.957872712463/1.06254107978         				-				-				0.977091449522/1.00665569841 
+CMS_scale_j        lnN   0.815251227268/1.47470261826         				-				-				0.91618093265/1.29231926688 
+zz2l2nu_CMS_hzz2l2v_sherpa        lnN   0.613680184625/1.38632070131         				-				-				-
+
+	lType= ch2
+Nbkg=  3
+backgrounds=  [<ROOT.TH1D object ("plot_rebin") at 0x1d1779f0>, <ROOT.TH1D object ("plot_rebin") at 0x1d178300>, <ROOT.TH1D object ("plot_rebin") at 0x1d173200>]
+ bkg shape syst:  ['zll_CMS_hzz2l2v_stat_ll_zll_8TeV']
+ getting bkgUp  zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp
+ yield:  27.5181869456
+ bkg shape syst:  ['topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV']
+ getting bkgUp  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp
+ yield:  49.8172898883
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_eff_bUp
+ yield:  29.0903778076
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_lesUp
+ yield:  29.9420070648
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_puUp
+ yield:  28.8351955414
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp
+ yield:  29.5946818337
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_umetUp
+ yield:  29.5478839874
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_res_jUp
+ yield:  28.8591651917
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_scale_jUp
+ yield:  26.6499938965
+doSignalShape_unc= True
+ signal shape syst:  zz2l2nu_CMS_eff_b
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_les
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_pu
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_umet
+ signal shape syst:  zz2l2nu_CMS_res_j
+ signal shape syst:  zz2l2nu_CMS_scale_j
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_sherpa
+bkg integral:  [20.80893325805664, 42.700271423032184, 29.020214080810547]
+signal shape unc:  {0: 48.978450775146484, 1: 34.783164978027344, 2: 46.89870834350586, 3: 49.39578628540039, 4: 48.43716046747744, 5: 47.63551712036133, 6: 49.52811050415039, 7: 52.14860916137695, 8: 47.78180694580078}   49.0553474426   {0: 49.1346435546875, 1: 63.32734298706055, 2: 50.78472900390625, 3: 48.691036224365234, 4: 49.673534417776466, 5: 50.172462463378906, 6: 48.640113830566406, 7: 45.27445602416992, 8: 50.32881546020508}
+bining: 
+0.0
+1.0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(data_obs): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch2): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch2): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch2_zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch2_zll_CMS_hzz2l2v_stat_ll_zll_8TeVDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch2_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch2_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_eff_bUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_eff_bDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_res_jUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_res_jDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_scale_jUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch2_wz3lnu_CMS_scale_jDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_eff_bUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_eff_bDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_res_jUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_res_jDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_scale_jUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_scale_jDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaUp): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch2_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaDown): fit range of variable W_pt_ch2 expanded to nearest bin boundaries: [0,1] --> [0,1]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCFunction
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCFunction
+
+setting up for dkglZ plane!
+0
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCSemi
+
+[#1] INFO:Eval -- RooRealVar::setRange(W_pt_ch2) new range named 'integRange' created with bounds [0,1]
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_eff_bUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_eff_bDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_lesUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_lesDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_puUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_puDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_umetUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_umetDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_res_jUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_res_jDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_scale_jUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_scale_jDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_sherpaUp_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch2_shape_zz2l2nu_CMS_hzz2l2v_sherpaDown_Int[W_pt_ch2|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch2)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCSemi
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch2boosted) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch2boosted) importing dataset WV_semileptonic_bkg1_ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch2boosted) importing dataset WV_semileptonic_bkg2_ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch2boosted) importing dataset WV_semileptonic_bkg3_ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch2boosted) importing RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch2boosted) importing RooHistFunc::WV_semileptonic_SM_ch2_shape
+
+RooWorkspace(WV_ch2boosted) WV_ch2boosted contents
+
+variables
+---------
+(W_pt_ch2,dg1,dkg,lZ,zz2l2nu_CMS_eff_b,zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto,zz2l2nu_CMS_hzz2l2v_les,zz2l2nu_CMS_hzz2l2v_pu,zz2l2nu_CMS_hzz2l2v_sherpa,zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV,zz2l2nu_CMS_hzz2l2v_umet,zz2l2nu_CMS_res_j,zz2l2nu_CMS_scale_j)
+
+p.d.f.s
+-------
+RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch2[ observable=W_pt_ch2 lZ=lZ dkg=dkg dg1=dg1 SM_shape=WV_semileptonic_SM_ch2_shape ] = 49.0508
+
+functions
+--------
+RooHistFunc::WV_semileptonic_SM_ch2_shape[ depList=(W_pt_ch2) ] = 49.0553
+
+datasets
+--------
+RooDataHist::data_obs(W_pt_ch2)
+RooDataHist::WV_semileptonic_bkg1_ch2(W_pt_ch2)
+RooDataHist::WV_semileptonic_bkg2_ch2(W_pt_ch2)
+RooDataHist::WV_semileptonic_bkg3_ch2(W_pt_ch2)
+
+	 ----> isItCorrelated: testing  zll_CMS_hzz2l2v_stat_ll_zll_8TeV
+-> false
+	 ----> isItCorrelated: testing  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_eff_b
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_les
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_pu
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_umet
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_res_j
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_scale_j
+-> true
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_eff_b
+-> true
+@@@@@@@@@@@@@@ testing  1.00161646214   0.998432450864
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_les
+-> true
+@@@@@@@@@@@@@@ testing  1.03525368082   0.956036615546
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_pu
+-> true
+@@@@@@@@@@@@@@ testing  0.992573465743   1.0069398926
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_umet
+-> true
+@@@@@@@@@@@@@@ testing  1.02277254324   0.971056563733
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_res_j
+-> true
+@@@@@@@@@@@@@@ testing  0.991535405747   1.00963733999
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_scale_j
+-> true
+@@@@@@@@@@@@@@ testing  0.922926008772   1.06305656529
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_sherpa
+-> false
+
+# Simple counting experiment, with one signal and a few background processes 
+imax 1  number of channels
+jmax 3  number of backgrounds
+kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------
+shapes WV_semileptonic_bkg1_ch2  ch2boosted ./ch2_boosted_ws.root WV_ch2boosted:$PROCESS WV_ch2boosted:$PROCESS
+shapes WV_semileptonic_bkg2_ch2  ch2boosted ./ch2_boosted_ws.root WV_ch2boosted:$PROCESS WV_ch2boosted:$PROCESS
+shapes WV_semileptonic_bkg3_ch2  ch2boosted ./ch2_boosted_ws.root WV_ch2boosted:$PROCESS WV_ch2boosted:$PROCESS
+shapes data_obs                ch2boosted ./ch2_boosted_ws.root WV_ch2boosted:$PROCESS    
+shapes WWgammaZ_WV_atgc_semileptonic_ch2 ch2boosted ./ch2_boosted_ws.root WV_ch2boosted:ATGCPdf_$PROCESS
+   
+------------
+bin ch2boosted 
+observation 160.0
+------------
+bin                         ch2boosted					ch2boosted			ch2boosted			ch2boosted       
+process			    WWgammaZ_WV_atgc_semileptonic_ch2    	WV_semileptonic_bkg1_ch2	WV_semileptonic_bkg2_ch2	WV_semileptonic_bkg3_ch2       
+process                     0	  	       				1 				2 				3       
+rate                        49.0553474426	 			20.8089332581 			42.700271423 			29.0202140808           
+------------
+lumi_8TeV       	    lnN 	    1.026             				-				-				1.026       
+CMS_eff_c           lnN     1.03          				-				-				1.03       
+CMS_hzz2l2v_sys_topwwwjetsdata_8TeV_c       lnN     -               				-				1.2				-
+zll_CMS_hzz2l2v_stat_ll_zll_8TeV lnN  -				0.677578201421/1.32242179858 				-				-
+topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV lnN  -				-				0.833326153955/1.16667384604 				-
+wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV lnN  -				-				-				0.980204565296/1.0197954347 
+QCDscale_VV           lnN     -          				-				-				1.054
+Zlldata_syst           lnN     -          				1.4				-				-
+pdf_VV           lnN     1.058          				-				-				1.042
+CMS_eff_b        lnN   0.998432450864/1.00161646214         				-				-				0.996661770167/1.00241775359 
+zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto        lnN   0.709059598828/1.29093659078         				-				-				-
+CMS_hzz2l2v_les        lnN   0.956036615546/1.03525368082         				-				-				0.940428197267/1.0317638244 
+CMS_hzz2l2v_pu        lnN   1.0069398926/0.992573465743         				-				-				1.00654159232/0.99362449433 
+zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV        lnN   0.987398173545/1.01260182645         				-				-				-
+CMS_hzz2l2v_umet        lnN   0.971056563733/1.02277254324         				-				-				0.958131837436/1.0181828399 
+CMS_res_j        lnN   1.00963733999/0.991535405747         				-				-				1.00455749115/0.994450458266 
+CMS_scale_j        lnN   1.06305656529/0.922926008772         				-				-				1.0658901278/0.918325199886 
+zz2l2nu_CMS_hzz2l2v_sherpa        lnN   0.974038701931/1.02595982057         				-				-				-
+
+	lType= ch3
+Nbkg=  3
+backgrounds=  [<ROOT.TH1D object ("plot_rebin") at 0x1d172d10>, <ROOT.TH1D object ("plot_rebin") at 0x1d173200>, <ROOT.TH1D object ("plot_rebin") at 0x1d182f20>]
+ bkg shape syst:  ['zll_CMS_hzz2l2v_stat_ll_zll_8TeV']
+ getting bkgUp  zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp
+ yield:  21.2216596153
+ bkg shape syst:  ['topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV']
+ getting bkgUp  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp
+ yield:  27.5721860706
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_eff_bUp
+ yield:  29.3671894073
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_lesUp
+ yield:  29.7101364136
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_puUp
+ yield:  29.1074142456
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp
+ yield:  29.8631590511
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_umetUp
+ yield:  30.0271072388
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_res_jUp
+ yield:  28.8582515717
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_scale_jUp
+ yield:  25.6444473267
+doSignalShape_unc= True
+ signal shape syst:  zz2l2nu_CMS_eff_b
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_les
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_pu
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_umet
+ signal shape syst:  zz2l2nu_CMS_res_j
+ signal shape syst:  zz2l2nu_CMS_scale_j
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_sherpa
+bkg integral:  [17.27031898498535, 22.47382706475378, 29.285160064697266]
+signal shape unc:  {0: 51.402931213378906, 1: 48.13764190673828, 2: 50.7101936340332, 3: 52.02893829345703, 4: 50.81331437776146, 5: 50.618507385253906, 6: 51.95936965942383, 7: 55.32900619506836, 8: 50.94359588623047}   51.4467430115   {0: 51.51474380493164, 1: 54.75572967529297, 2: 52.21991729736328, 3: 50.8292121887207, 4: 52.08017164518776, 5: 52.486900329589844, 6: 50.9114990234375, 7: 45.515682220458984, 8: 51.9498405456543}
+bining: 
+0.0
+1.0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(data_obs): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch3): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch3): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch3_zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch3_zll_CMS_hzz2l2v_stat_ll_zll_8TeVDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch3_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch3_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_eff_bUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_eff_bDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_res_jUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_res_jDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_scale_jUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch3_wz3lnu_CMS_scale_jDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_eff_bUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_eff_bDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_res_jUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_res_jDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_scale_jUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_scale_jDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaUp): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch3_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaDown): fit range of variable W_pt_ch3 expanded to nearest bin boundaries: [0,1] --> [0,1]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCFunction
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCFunction
+
+setting up for dkglZ plane!
+0
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCSemi
+
+[#1] INFO:Eval -- RooRealVar::setRange(W_pt_ch3) new range named 'integRange' created with bounds [0,1]
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_eff_bUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_eff_bDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_lesUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_lesDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_puUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_puDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_umetUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_umetDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_res_jUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_res_jDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_scale_jUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_scale_jDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_sherpaUp_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch3_shape_zz2l2nu_CMS_hzz2l2v_sherpaDown_Int[W_pt_ch3|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch3)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCSemi
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch3boosted) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch3boosted) importing dataset WV_semileptonic_bkg1_ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch3boosted) importing dataset WV_semileptonic_bkg2_ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch3boosted) importing dataset WV_semileptonic_bkg3_ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch3boosted) importing RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch3boosted) importing RooHistFunc::WV_semileptonic_SM_ch3_shape
+
+RooWorkspace(WV_ch3boosted) WV_ch3boosted contents
+
+variables
+---------
+(W_pt_ch3,dg1,dkg,lZ,zz2l2nu_CMS_eff_b,zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto,zz2l2nu_CMS_hzz2l2v_les,zz2l2nu_CMS_hzz2l2v_pu,zz2l2nu_CMS_hzz2l2v_sherpa,zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV,zz2l2nu_CMS_hzz2l2v_umet,zz2l2nu_CMS_res_j,zz2l2nu_CMS_scale_j)
+
+p.d.f.s
+-------
+RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch3[ observable=W_pt_ch3 lZ=lZ dkg=dkg dg1=dg1 SM_shape=WV_semileptonic_SM_ch3_shape ] = 51.4477
+
+functions
+--------
+RooHistFunc::WV_semileptonic_SM_ch3_shape[ depList=(W_pt_ch3) ] = 51.4467
+
+datasets
+--------
+RooDataHist::data_obs(W_pt_ch3)
+RooDataHist::WV_semileptonic_bkg1_ch3(W_pt_ch3)
+RooDataHist::WV_semileptonic_bkg2_ch3(W_pt_ch3)
+RooDataHist::WV_semileptonic_bkg3_ch3(W_pt_ch3)
+
+	 ----> isItCorrelated: testing  zll_CMS_hzz2l2v_stat_ll_zll_8TeV
+-> false
+	 ----> isItCorrelated: testing  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_eff_b
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_les
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_pu
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_umet
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_res_j
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_scale_j
+-> true
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_eff_b
+-> true
+@@@@@@@@@@@@@@ testing  1.00132177062   0.999148404825
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_les
+-> true
+@@@@@@@@@@@@@@ testing  1.01502863429   0.985683265172
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_pu
+-> true
+@@@@@@@@@@@@@@ testing  0.987996697427   1.0113164653
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_umet
+-> true
+@@@@@@@@@@@@@@ testing  1.02021813738   0.983901106703
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_res_j
+-> true
+@@@@@@@@@@@@@@ testing  0.989596154067   1.00996421966
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_scale_j
+-> true
+@@@@@@@@@@@@@@ testing  0.88471455249   1.0754617874
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_sherpa
+-> false
+
+# Simple counting experiment, with one signal and a few background processes 
+imax 1  number of channels
+jmax 3  number of backgrounds
+kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------
+shapes WV_semileptonic_bkg1_ch3  ch3boosted ./ch3_boosted_ws.root WV_ch3boosted:$PROCESS WV_ch3boosted:$PROCESS
+shapes WV_semileptonic_bkg2_ch3  ch3boosted ./ch3_boosted_ws.root WV_ch3boosted:$PROCESS WV_ch3boosted:$PROCESS
+shapes WV_semileptonic_bkg3_ch3  ch3boosted ./ch3_boosted_ws.root WV_ch3boosted:$PROCESS WV_ch3boosted:$PROCESS
+shapes data_obs                ch3boosted ./ch3_boosted_ws.root WV_ch3boosted:$PROCESS    
+shapes WWgammaZ_WV_atgc_semileptonic_ch3 ch3boosted ./ch3_boosted_ws.root WV_ch3boosted:ATGCPdf_$PROCESS
+   
+------------
+bin ch3boosted 
+observation 117.0
+------------
+bin                         ch3boosted					ch3boosted			ch3boosted			ch3boosted       
+process			    WWgammaZ_WV_atgc_semileptonic_ch3    	WV_semileptonic_bkg1_ch3	WV_semileptonic_bkg2_ch3	WV_semileptonic_bkg3_ch3       
+process                     0	  	       				1 				2 				3       
+rate                        51.4467430115	 			17.270318985 			22.4738270648 			29.2851600647           
+------------
+lumi_8TeV       	    lnN 	    1.026             				-				-				1.026       
+CMS_eff_c           lnN     1.03          				-				-				1.03       
+CMS_hzz2l2v_sys_topwwwjetsdata_8TeV_c       lnN     -               				-				1.2				-
+zll_CMS_hzz2l2v_stat_ll_zll_8TeV lnN  -				0.771206273972/1.22879372603 				-				-
+topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV lnN  -				-				0.773142376188/1.22685762381 				-
+wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV lnN  -				-				-				0.980263075731/1.01973692427 
+QCDscale_VV           lnN     -          				-				-				1.054
+Zlldata_syst           lnN     -          				1.4				-				-
+pdf_VV           lnN     1.058          				-				-				1.042
+CMS_eff_b        lnN   0.999148404825/1.00132177062         				-				-				0.99691185108/1.00280105495 
+zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto        lnN   0.935679094321/1.06431868122         				-				-				-
+CMS_hzz2l2v_les        lnN   0.985683265172/1.01502863429         				-				-				0.970870904238/1.01451166215 
+CMS_hzz2l2v_pu        lnN   1.0113164653/0.987996697427         				-				-				1.00602193924/0.993930515705 
+zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV        lnN   0.987687682511/1.01231231749         				-				-				-
+CMS_hzz2l2v_umet        lnN   0.983901106703/1.02021813738         				-				-				0.961101047046/1.02533526101 
+CMS_res_j        lnN   1.00996421966/0.989596154067         				-				-				1.01085232129/0.985422360947 
+CMS_scale_j        lnN   1.0754617874/0.88471455249         				-				-				1.08725780843/0.87568062698 
+zz2l2nu_CMS_hzz2l2v_sherpa        lnN   0.990220039291/1.00977899678         				-				-				-
+
+	lType= ch4
+Nbkg=  3
+backgrounds=  [<ROOT.TH1D object ("plot_rebin") at 0x1eaf7a00>, <ROOT.TH1D object ("plot_rebin") at 0x1e5e1320>, <ROOT.TH1D object ("plot_rebin") at 0x1d1779f0>]
+ bkg shape syst:  ['zll_CMS_hzz2l2v_stat_ll_zll_8TeV']
+ getting bkgUp  zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp
+ yield:  36.5086912352
+ bkg shape syst:  ['topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV']
+ getting bkgUp  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp
+ yield:  9.50668411857
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_eff_bUp
+ yield:  41.9840202332
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_lesUp
+ yield:  42.3446350098
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_puUp
+ yield:  41.693397522
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp
+ yield:  42.5583155606
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_umetUp
+ yield:  43.2237739563
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_res_jUp
+ yield:  41.2347602844
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_scale_jUp
+ yield:  36.3544654846
+doSignalShape_unc= True
+ signal shape syst:  zz2l2nu_CMS_eff_b
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_les
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_pu
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_umet
+ signal shape syst:  zz2l2nu_CMS_res_j
+ signal shape syst:  zz2l2nu_CMS_scale_j
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_sherpa
+bkg integral:  [31.697729110717773, 6.742148119426135, 41.87159729003906]
+signal shape unc:  {0: 72.24879455566406, 1: 64.04988861083984, 2: 72.12444305419922, 3: 72.67073059082031, 4: 71.58364155033198, 5: 72.06368255615234, 6: 73.1112289428711, 7: 77.4963607788086, 8: 72.5126724243164}   72.3206863403   {0: 72.44451904296875, 1: 80.5913314819336, 2: 72.34333801269531, 3: 71.90088653564453, 4: 73.05773113033209, 5: 72.41757202148438, 6: 71.5980224609375, 7: 63.50687026977539, 8: 72.12853240966797}
+bining: 
+0.0
+1.0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(data_obs): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch4): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch4): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch4_zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch4_zll_CMS_hzz2l2v_stat_ll_zll_8TeVDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch4_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch4_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_eff_bUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_eff_bDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_res_jUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_res_jDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_scale_jUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch4_wz3lnu_CMS_scale_jDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_eff_bUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_eff_bDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_res_jUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_res_jDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_scale_jUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_scale_jDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaUp): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch4_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaDown): fit range of variable W_pt_ch4 expanded to nearest bin boundaries: [0,1] --> [0,1]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCFunction
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCFunction
+
+setting up for dkglZ plane!
+0
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCSemi
+
+[#1] INFO:Eval -- RooRealVar::setRange(W_pt_ch4) new range named 'integRange' created with bounds [0,1]
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_eff_bUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_eff_bDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_lesUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_lesDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_puUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_puDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_umetUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_umetDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_res_jUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_res_jDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_scale_jUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_scale_jDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_sherpaUp_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch4_shape_zz2l2nu_CMS_hzz2l2v_sherpaDown_Int[W_pt_ch4|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch4)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCSemi
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch4boosted) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch4boosted) importing dataset WV_semileptonic_bkg1_ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch4boosted) importing dataset WV_semileptonic_bkg2_ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch4boosted) importing dataset WV_semileptonic_bkg3_ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch4boosted) importing RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch4boosted) importing RooHistFunc::WV_semileptonic_SM_ch4_shape
+
+RooWorkspace(WV_ch4boosted) WV_ch4boosted contents
+
+variables
+---------
+(W_pt_ch4,dg1,dkg,lZ,zz2l2nu_CMS_eff_b,zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto,zz2l2nu_CMS_hzz2l2v_les,zz2l2nu_CMS_hzz2l2v_pu,zz2l2nu_CMS_hzz2l2v_sherpa,zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV,zz2l2nu_CMS_hzz2l2v_umet,zz2l2nu_CMS_res_j,zz2l2nu_CMS_scale_j)
+
+p.d.f.s
+-------
+RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch4[ observable=W_pt_ch4 lZ=lZ dkg=dkg dg1=dg1 SM_shape=WV_semileptonic_SM_ch4_shape ] = 72.3167
+
+functions
+--------
+RooHistFunc::WV_semileptonic_SM_ch4_shape[ depList=(W_pt_ch4) ] = 72.3207
+
+datasets
+--------
+RooDataHist::data_obs(W_pt_ch4)
+RooDataHist::WV_semileptonic_bkg1_ch4(W_pt_ch4)
+RooDataHist::WV_semileptonic_bkg2_ch4(W_pt_ch4)
+RooDataHist::WV_semileptonic_bkg3_ch4(W_pt_ch4)
+
+	 ----> isItCorrelated: testing  zll_CMS_hzz2l2v_stat_ll_zll_8TeV
+-> false
+	 ----> isItCorrelated: testing  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_eff_b
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_les
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_pu
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_umet
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_res_j
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_scale_j
+-> true
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_eff_b
+-> true
+@@@@@@@@@@@@@@ testing  1.00171227223   0.999005930553
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_les
+-> true
+@@@@@@@@@@@@@@ testing  1.00031321152   0.997286484738
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_pu
+-> true
+@@@@@@@@@@@@@@ testing  0.994195301152   1.00484016771
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_umet
+-> true
+@@@@@@@@@@@@@@ testing  1.00133966761   0.996446330958
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_res_j
+-> true
+@@@@@@@@@@@@@@ testing  0.990007508004   1.01093107163
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_scale_j
+-> true
+@@@@@@@@@@@@@@ testing  0.87812869987   1.0715656156
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_sherpa
+-> false
+
+# Simple counting experiment, with one signal and a few background processes 
+imax 1  number of channels
+jmax 3  number of backgrounds
+kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------
+shapes WV_semileptonic_bkg1_ch4  ch4boosted ./ch4_boosted_ws.root WV_ch4boosted:$PROCESS WV_ch4boosted:$PROCESS
+shapes WV_semileptonic_bkg2_ch4  ch4boosted ./ch4_boosted_ws.root WV_ch4boosted:$PROCESS WV_ch4boosted:$PROCESS
+shapes WV_semileptonic_bkg3_ch4  ch4boosted ./ch4_boosted_ws.root WV_ch4boosted:$PROCESS WV_ch4boosted:$PROCESS
+shapes data_obs                ch4boosted ./ch4_boosted_ws.root WV_ch4boosted:$PROCESS    
+shapes WWgammaZ_WV_atgc_semileptonic_ch4 ch4boosted ./ch4_boosted_ws.root WV_ch4boosted:ATGCPdf_$PROCESS
+   
+------------
+bin ch4boosted 
+observation 148.0
+------------
+bin                         ch4boosted					ch4boosted			ch4boosted			ch4boosted       
+process			    WWgammaZ_WV_atgc_semileptonic_ch4    	WV_semileptonic_bkg1_ch4	WV_semileptonic_bkg2_ch4	WV_semileptonic_bkg3_ch4       
+process                     0	  	       				1 				2 				3       
+rate                        72.3206863403	 			31.6977291107 			6.74214811943 			41.87159729           
+------------
+lumi_8TeV       	    lnN 	    1.026             				-				-				1.026       
+CMS_eff_c           lnN     1.03          				-				-				1.03       
+CMS_hzz2l2v_sys_topwwwjetsdata_8TeV_c       lnN     -               				-				1.2				-
+zll_CMS_hzz2l2v_stat_ll_zll_8TeV lnN  -				0.848223760521/1.15177623948 				-				-
+topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV lnN  -				-				0.589962138153/1.41003786185 				-
+wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV lnN  -				-				-				0.983599425029/1.01640057497 
+QCDscale_VV           lnN     -          				-				-				1.054
+Zlldata_syst           lnN     -          				1.4				-				-
+pdf_VV           lnN     1.058          				-				-				1.042
+CMS_eff_b        lnN   0.999005930553/1.00171227223         				-				-				0.999281822035/1.00268494518 
+zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto        lnN   0.885637178683/1.11436071144         				-				-				-
+CMS_hzz2l2v_les        lnN   0.997286484738/1.00031321152         				-				-				0.989284270928/1.01129734117 
+CMS_hzz2l2v_pu        lnN   1.00484016771/0.994195301152         				-				-				1.00430587913/0.995744137325 
+zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV        lnN   0.989808658804/1.0101913412         				-				-				-
+CMS_hzz2l2v_umet        lnN   0.996446330958/1.00133966761         				-				-				0.968149358423/1.03229341018 
+CMS_res_j        lnN   1.01093107163/0.990007508004         				-				-				1.00901744727/0.984790716217 
+CMS_scale_j        lnN   1.0715656156/0.87812869987         				-				-				1.08634242886/0.868236891772 
+zz2l2nu_CMS_hzz2l2v_sherpa        lnN   1.00265464964/0.997343029493         				-				-				-
+
+	lType= ch5
+Nbkg=  3
+backgrounds=  [<ROOT.TH1D object ("plot_rebin") at 0x1e5e58a0>, <ROOT.TH1D object ("plot_rebin") at 0x1dbf02f0>, <ROOT.TH1D object ("plot_rebin") at 0x1d178300>]
+ bkg shape syst:  ['zll_CMS_hzz2l2v_stat_ll_zll_8TeV']
+ getting bkgUp  zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp
+ yield:  5.41800624201
+ bkg shape syst:  ['topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV']
+ getting bkgUp  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp
+ yield:  1e-05
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_eff_bUp
+ yield:  4.02555370331
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_lesUp
+ yield:  4.02141141891
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_puUp
+ yield:  4.02048254013
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp
+ yield:  4.23233608687
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_umetUp
+ yield:  4.08402299881
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_res_jUp
+ yield:  3.96389698982
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_scale_jUp
+ yield:  3.50543761253
+doSignalShape_unc= True
+ signal shape syst:  zz2l2nu_CMS_eff_b
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_les
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_pu
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_umet
+ signal shape syst:  zz2l2nu_CMS_res_j
+ signal shape syst:  zz2l2nu_CMS_scale_j
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_sherpa
+bkg integral:  [3.544043779373169, 1e-05, 4.0255537033081055]
+signal shape unc:  {0: 7.358882427215576, 1: 5.19701623916626, 2: 7.3559417724609375, 3: 7.412055015563965, 4: 7.141430008639728, 5: 7.364373207092285, 6: 7.423759937286377, 7: 7.9529547691345215, 8: 9.203463554382324}   7.36625242233   {0: 7.383372783660889, 1: 9.53548526763916, 2: 7.3559417724609375, 3: 7.328583240509033, 4: 7.5910748360258, 5: 7.359905242919922, 6: 7.285320281982422, 7: 6.374377250671387, 8: 5.529042720794678}
+bining: 
+0.0
+1.0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(data_obs): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch5): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch5): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch5_zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch5_zll_CMS_hzz2l2v_stat_ll_zll_8TeVDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch5_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch5_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_eff_bUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_eff_bDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_res_jUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_res_jDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_scale_jUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch5_wz3lnu_CMS_scale_jDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_eff_bUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_eff_bDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_res_jUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_res_jDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_scale_jUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_scale_jDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaUp): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch5_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaDown): fit range of variable W_pt_ch5 expanded to nearest bin boundaries: [0,1] --> [0,1]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCFunction
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCFunction
+
+setting up for dkglZ plane!
+0
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCSemi
+
+[#1] INFO:Eval -- RooRealVar::setRange(W_pt_ch5) new range named 'integRange' created with bounds [0,1]
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_eff_bUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_eff_bDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_lesUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_lesDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_puUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_puDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_umetUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_umetDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_res_jUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_res_jDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_scale_jUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_scale_jDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_sherpaUp_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch5_shape_zz2l2nu_CMS_hzz2l2v_sherpaDown_Int[W_pt_ch5|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch5)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCSemi
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch5boosted) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch5boosted) importing dataset WV_semileptonic_bkg1_ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch5boosted) importing dataset WV_semileptonic_bkg2_ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch5boosted) importing dataset WV_semileptonic_bkg3_ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch5boosted) importing RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch5boosted) importing RooHistFunc::WV_semileptonic_SM_ch5_shape
+
+RooWorkspace(WV_ch5boosted) WV_ch5boosted contents
+
+variables
+---------
+(W_pt_ch5,dg1,dkg,lZ,zz2l2nu_CMS_eff_b,zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto,zz2l2nu_CMS_hzz2l2v_les,zz2l2nu_CMS_hzz2l2v_pu,zz2l2nu_CMS_hzz2l2v_sherpa,zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV,zz2l2nu_CMS_hzz2l2v_umet,zz2l2nu_CMS_res_j,zz2l2nu_CMS_scale_j)
+
+p.d.f.s
+-------
+RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch5[ observable=W_pt_ch5 lZ=lZ dkg=dkg dg1=dg1 SM_shape=WV_semileptonic_SM_ch5_shape ] = 7.37494
+
+functions
+--------
+RooHistFunc::WV_semileptonic_SM_ch5_shape[ depList=(W_pt_ch5) ] = 7.36625
+
+datasets
+--------
+RooDataHist::data_obs(W_pt_ch5)
+RooDataHist::WV_semileptonic_bkg1_ch5(W_pt_ch5)
+RooDataHist::WV_semileptonic_bkg2_ch5(W_pt_ch5)
+RooDataHist::WV_semileptonic_bkg3_ch5(W_pt_ch5)
+
+	 ----> isItCorrelated: testing  zll_CMS_hzz2l2v_stat_ll_zll_8TeV
+-> false
+	 ----> isItCorrelated: testing  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_eff_b
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_les
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_pu
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_umet
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_res_j
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_scale_j
+-> true
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_eff_b
+-> true
+@@@@@@@@@@@@@@ testing  1.00232416164   0.998999491913
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_les
+-> true
+@@@@@@@@@@@@@@ testing  0.998600285562   0.998600285562
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_pu
+-> true
+@@@@@@@@@@@@@@ testing  0.994886248846   1.00621789624
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_umet
+-> true
+@@@@@@@@@@@@@@ testing  0.999138343482   0.999744888563
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_res_j
+-> true
+@@@@@@@@@@@@@@ testing  0.989013118787   1.00780688899
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_scale_j
+-> true
+@@@@@@@@@@@@@@ testing  0.865348739794   1.07964733126
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_sherpa
+-> false
+
+# Simple counting experiment, with one signal and a few background processes 
+imax 1  number of channels
+jmax 3  number of backgrounds
+kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------
+shapes WV_semileptonic_bkg1_ch5  ch5boosted ./ch5_boosted_ws.root WV_ch5boosted:$PROCESS WV_ch5boosted:$PROCESS
+shapes WV_semileptonic_bkg2_ch5  ch5boosted ./ch5_boosted_ws.root WV_ch5boosted:$PROCESS WV_ch5boosted:$PROCESS
+shapes WV_semileptonic_bkg3_ch5  ch5boosted ./ch5_boosted_ws.root WV_ch5boosted:$PROCESS WV_ch5boosted:$PROCESS
+shapes data_obs                ch5boosted ./ch5_boosted_ws.root WV_ch5boosted:$PROCESS    
+shapes WWgammaZ_WV_atgc_semileptonic_ch5 ch5boosted ./ch5_boosted_ws.root WV_ch5boosted:ATGCPdf_$PROCESS
+   
+------------
+bin ch5boosted 
+observation 13.0
+------------
+bin                         ch5boosted					ch5boosted			ch5boosted			ch5boosted       
+process			    WWgammaZ_WV_atgc_semileptonic_ch5    	WV_semileptonic_bkg1_ch5	WV_semileptonic_bkg2_ch5	WV_semileptonic_bkg3_ch5       
+process                     0	  	       				1 				2 				3       
+rate                        7.36625242233	 			3.54404377937 			1e-05 			4.02555370331           
+------------
+lumi_8TeV       	    lnN 	    1.026             				-				-				1.026       
+CMS_eff_c           lnN     1.03          				-				-				1.03       
+CMS_hzz2l2v_sys_topwwwjetsdata_8TeV_c       lnN     -               				-				1.2				-
+zll_CMS_hzz2l2v_stat_ll_zll_8TeV lnN  -				0.471236085304/1.5287639147 				-				-
+topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV lnN  -				-				1.0/1.0 				-
+wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV lnN  -				-				-				0.948632561182/1.05136743882 
+QCDscale_VV           lnN     -          				-				-				1.054
+Zlldata_syst           lnN     -          				1.4				-				-
+pdf_VV           lnN     1.058          				-				-				1.042
+CMS_eff_b        lnN   0.998999491913/1.00232416164         				-				-				1.0/1.0 
+zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto        lnN   0.70551699035/1.29448255652         				-				-				-
+CMS_hzz2l2v_les        lnN   0.998600285562/0.998600285562         				-				-				0.991265604052/0.998971002575 
+CMS_hzz2l2v_pu        lnN   1.00621789624/0.994886248846         				-				-				1.00152176009/0.99874025698 
+zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV        lnN   0.969479404071/1.03052059593         				-				-				-
+CMS_hzz2l2v_umet        lnN   0.999744888563/0.999138343482         				-				-				0.984521329635/1.01452453496 
+CMS_res_j        lnN   1.00780688899/0.989013118787         				-				-				1.01702258109/0.984683668874 
+CMS_scale_j        lnN   1.07964733126/0.865348739794         				-				-				1.06882188738/0.870796385017 
+zz2l2nu_CMS_hzz2l2v_sherpa        lnN   1.24940920114/0.750590993058         				-				-				-
+
+	lType= ch6
+Nbkg=  3
+backgrounds=  [<ROOT.TH1D object ("plot_rebin") at 0x1e650e10>, <ROOT.TH1D object ("plot_rebin") at 0x1e5e1320>, <ROOT.TH1D object ("plot_rebin") at 0x1d1779f0>]
+ bkg shape syst:  ['zll_CMS_hzz2l2v_stat_ll_zll_8TeV']
+ getting bkgUp  zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp
+ yield:  3.75477079593
+ bkg shape syst:  ['topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV']
+ getting bkgUp  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp
+ yield:  1e-05
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_eff_bUp
+ yield:  0.163198038936
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_lesUp
+ yield:  0.163198038936
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_puUp
+ yield:  0.16421982646
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp
+ yield:  0.202826614181
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_hzz2l2v_umetUp
+ yield:  0.184721693397
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_res_jUp
+ yield:  0.163198038936
+ bkg shape syst:  ['wz3lnu_CMS_eff_b', 'wz3lnu_CMS_hzz2l2v_les', 'wz3lnu_CMS_hzz2l2v_pu', 'wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV', 'wz3lnu_CMS_hzz2l2v_umet', 'wz3lnu_CMS_res_j', 'wz3lnu_CMS_scale_j']
+ getting bkgUp  wz3lnu_CMS_scale_jUp
+ yield:  0.123930804431
+doSignalShape_unc= True
+ signal shape syst:  zz2l2nu_CMS_eff_b
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_les
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_pu
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_umet
+ signal shape syst:  zz2l2nu_CMS_res_j
+ signal shape syst:  zz2l2nu_CMS_scale_j
+ signal shape syst:  zz2l2nu_CMS_hzz2l2v_sherpa
+bkg integral:  [2.4945366382598877, 1e-05, 0.16319803893566132]
+signal shape unc:  {0: 0.14829117059707642, 1: 0.023396078497171402, 2: 0.1530705988407135, 3: 0.15301279723644257, 4: 0.12337121309505616, 5: 0.1530705988407135, 6: 0.1530705988407135, 7: 0.1790027767419815, 8: 0.24024353921413422}   0.153070598841   {0: 0.1530705988407135, 1: 0.2827451229095459, 2: 0.1530705988407135, 3: 0.15216152369976044, 4: 0.18276998458637084, 5: 0.1530705988407135, 6: 0.15971091389656067, 7: 0.13499504327774048, 8: 0.06589766591787338}
+bining: 
+0.0
+1.0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(data_obs): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch6): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch6): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch6_zll_CMS_hzz2l2v_stat_ll_zll_8TeVUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg1_ch6_zll_CMS_hzz2l2v_stat_ll_zll_8TeVDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch6_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg2_ch6_topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeVDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_eff_bUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_eff_bDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeVDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_res_jUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_res_jDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_scale_jUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_bkg3_ch6_wz3lnu_CMS_scale_jDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_eff_bUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_eff_bDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_lesUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_lesDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_puUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_puDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_umetUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_umetDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_res_jUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_res_jDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_scale_jUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_scale_jDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaUp): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(WV_semileptonic_SM_ch6_rawshape_zz2l2nu_CMS_hzz2l2v_sherpaDown): fit range of variable W_pt_ch6 expanded to nearest bin boundaries: [0,1] --> [0,1]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCFunction
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCFunction
+
+setting up for dkglZ plane!
+0
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ reading RooATGCSemi
+
+[#1] INFO:Eval -- RooRealVar::setRange(W_pt_ch6) new range named 'integRange' created with bounds [0,1]
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_eff_bUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_eff_bDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVetoDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_lesUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_lesDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_puUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_puDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeVDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_umetUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_umetDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_res_jUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_res_jDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_scale_jUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_scale_jDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_sherpaUp_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+[#1] INFO:NumericIntegration -- RooRealIntegral::init(WV_semileptonic_SM_ch6_shape_zz2l2nu_CMS_hzz2l2v_sherpaDown_Int[W_pt_ch6|integRange]) using numeric integrator RooIntegrator1D to calculate Int(W_pt_ch6)
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ read RooATGCSemi
+
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch6boosted) importing dataset data_obs
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch6boosted) importing dataset WV_semileptonic_bkg1_ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch6boosted) importing dataset WV_semileptonic_bkg2_ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch6boosted) importing dataset WV_semileptonic_bkg3_ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch6boosted) importing RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6
+[#1] INFO:ObjectHandling -- RooWorkspace::import(WV_ch6boosted) importing RooHistFunc::WV_semileptonic_SM_ch6_shape
+
+RooWorkspace(WV_ch6boosted) WV_ch6boosted contents
+
+variables
+---------
+(W_pt_ch6,dg1,dkg,lZ,zz2l2nu_CMS_eff_b,zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto,zz2l2nu_CMS_hzz2l2v_les,zz2l2nu_CMS_hzz2l2v_pu,zz2l2nu_CMS_hzz2l2v_sherpa,zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV,zz2l2nu_CMS_hzz2l2v_umet,zz2l2nu_CMS_res_j,zz2l2nu_CMS_scale_j)
+
+p.d.f.s
+-------
+RooATGCSemiAnalyticPdf_wz::ATGCPdf_WWgammaZ_WV_atgc_semileptonic_ch6[ observable=W_pt_ch6 lZ=lZ dkg=dkg dg1=dg1 SM_shape=WV_semileptonic_SM_ch6_shape ] = 0.154928
+
+functions
+--------
+RooHistFunc::WV_semileptonic_SM_ch6_shape[ depList=(W_pt_ch6) ] = 0.153071
+
+datasets
+--------
+RooDataHist::data_obs(W_pt_ch6)
+RooDataHist::WV_semileptonic_bkg1_ch6(W_pt_ch6)
+RooDataHist::WV_semileptonic_bkg2_ch6(W_pt_ch6)
+RooDataHist::WV_semileptonic_bkg3_ch6(W_pt_ch6)
+
+	 ----> isItCorrelated: testing  zll_CMS_hzz2l2v_stat_ll_zll_8TeV
+-> false
+	 ----> isItCorrelated: testing  topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_eff_b
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_les
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_pu
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV
+-> false
+	 ----> isItCorrelated: testing  wz3lnu_CMS_hzz2l2v_umet
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_res_j
+-> true
+	 ----> isItCorrelated: testing  wz3lnu_CMS_scale_j
+-> true
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_eff_b
+-> true
+@@@@@@@@@@@@@@ testing  1.0   0.96877631446
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_les
+-> true
+@@@@@@@@@@@@@@ testing  1.0   1.0
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_pu
+-> true
+@@@@@@@@@@@@@@ testing  0.994061072813   0.999622385979
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV
+-> false
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_umet
+-> true
+@@@@@@@@@@@@@@ testing  1.0   1.0
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_res_j
+-> true
+@@@@@@@@@@@@@@ testing  1.04338073481   1.0
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_scale_j
+-> true
+@@@@@@@@@@@@@@ testing  0.881913602613   1.16941318645
+@@@@@@@@@@@@@@ testing defout
+	 ----> isItCorrelated: testing  zz2l2nu_CMS_hzz2l2v_sherpa
+-> false
+
+# Simple counting experiment, with one signal and a few background processes 
+imax 1  number of channels
+jmax 3  number of backgrounds
+kmax *  number of nuisance parameters (sources of systematical uncertainties)
+------------
+shapes WV_semileptonic_bkg1_ch6  ch6boosted ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS WV_ch6boosted:$PROCESS
+shapes WV_semileptonic_bkg2_ch6  ch6boosted ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS WV_ch6boosted:$PROCESS
+shapes WV_semileptonic_bkg3_ch6  ch6boosted ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS WV_ch6boosted:$PROCESS
+shapes data_obs                ch6boosted ./ch6_boosted_ws.root WV_ch6boosted:$PROCESS    
+shapes WWgammaZ_WV_atgc_semileptonic_ch6 ch6boosted ./ch6_boosted_ws.root WV_ch6boosted:ATGCPdf_$PROCESS
+   
+------------
+bin ch6boosted 
+observation 1e-05
+------------
+bin                         ch6boosted					ch6boosted			ch6boosted			ch6boosted       
+process			    WWgammaZ_WV_atgc_semileptonic_ch6    	WV_semileptonic_bkg1_ch6	WV_semileptonic_bkg2_ch6	WV_semileptonic_bkg3_ch6       
+process                     0	  	       				1 				2 				3       
+rate                        0.153070598841	 			2.49453663826 			1e-05 			0.163198038936           
+------------
+lumi_8TeV       	    lnN 	    1.026             				-				-				1.026       
+CMS_eff_c           lnN     1.03          				-				-				1.03       
+CMS_hzz2l2v_sys_topwwwjetsdata_8TeV_c       lnN     -               				-				1.2				-
+zll_CMS_hzz2l2v_stat_ll_zll_8TeV lnN  -				0.49480230583/1.50519769417 				-				-
+topwwwjetsdata_CMS_hzz2l2v_stat_ll_topwwwjetsdata_8TeV lnN  -				-				1.0/1.0 				-
+wz3lnu_CMS_hzz2l2v_stat_ll_wz3lnu_8TeV lnN  -				-				-				0.757174929897/1.2428250701 
+QCDscale_VV           lnN     -          				-				-				1.054
+Zlldata_syst           lnN     -          				1.4				-				-
+pdf_VV           lnN     1.058          				-				-				1.042
+CMS_eff_b        lnN   0.96877631446/1.0         				-				-				1.0/1.0 
+zz2l2nu_CMS_hzz2l2v_QCD_ACC_JVeto        lnN   0.152845018406/1.84715500593         				-				-				-
+CMS_hzz2l2v_les        lnN   1.0/1.0         				-				-				1.0/1.0 
+CMS_hzz2l2v_pu        lnN   0.999622385979/0.994061072813         				-				-				0.996117433883/1.0062610282 
+zz2l2nu_CMS_hzz2l2v_stat_ll_zz2l2nu_8TeV        lnN   0.805975896282/1.19402410372         				-				-				-
+CMS_hzz2l2v_umet        lnN   1.0/1.0         				-				-				1.0/1.13188672242 
+CMS_res_j        lnN   1.0/1.04338073481         				-				-				0.996082554521/1.0 
+CMS_scale_j        lnN   1.16941318645/0.881913602613         				-				-				1.04956978315/0.75938905418 
+zz2l2nu_CMS_hzz2l2v_sherpa        lnN   1.56949499795/0.430505050721         				-				-				-
